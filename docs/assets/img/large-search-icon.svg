@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 49 49" style="enable-background:new 0 0 49 49;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:#FFFFFF;}
+</style>
+<rect x="-391.5" y="-351.5" class="st0" width="892" height="794"/>
+<image style="display:none;overflow:visible;" width="19" height="20" xlink:href="search-icon.png"  transform="matrix(1 0 0 1 15.5 14.5)">
+</image>
+<image style="display:none;overflow:visible;" width="49" height="49" xlink:href="large-search-icon.png" >
+</image>
+<path class="st1" d="M24.5,49C11,49,0,38,0,24.5S11,0,24.5,0S49,11,49,24.5S38,49,24.5,49z M24.5,3.4c-11.6,0-21.1,9.5-21.1,21.1
+	s9.5,21.1,21.1,21.1s21.1-9.5,21.1-21.1S36.1,3.4,24.5,3.4z M34.9,36.6c-0.5,0-0.9-0.2-1.2-0.5l-5.2-5.2c-0.7-0.6-0.7-1.7-0.1-2.4
+	s1.7-0.7,2.4-0.1c0.1,0,0.1,0.1,0.1,0.1l5.2,5.2c0.7,0.7,0.7,1.8,0,2.4C35.7,36.4,35.3,36.6,34.9,36.6z M23.2,34
+	c-5.9,0-10.8-4.8-10.8-10.8s4.8-10.8,10.8-10.8S34,17.3,34,23.2l0,0C34,29.2,29.2,34,23.2,34z M23.2,15.8c-4,0-7.3,3.3-7.3,7.3
+	s3.3,7.4,7.4,7.4s7.4-3.3,7.4-7.4l0,0C30.5,19.1,27.3,15.8,23.2,15.8z"/>
+</svg>

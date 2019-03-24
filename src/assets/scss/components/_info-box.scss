@@ -1,0 +1,202 @@
+.info-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include breakpoint(medium) {
+        padding: 100px 5%;
+    }
+    &.red {
+        .info-box__rightside {
+            background-color: $red;
+
+            p {
+                font-size: 120%;
+            }
+            a {
+                color: $white;
+    
+                &:after {
+                    background-color: $white;
+                }
+                &:hover {
+                    color: $yellow !important;
+    
+                    &:after {
+                        background-color: $yellow;
+                    }
+                }
+            }
+        }
+        .info-box__leftside__intro-text {
+            a {
+                color: $dark-gray;
+
+                &:after {
+                    background-color: $dark-gray;
+                }
+                &:hover {
+                    color: $red !important;
+                    
+                    &:after {
+                        background-color: $red;
+                    }
+                }
+            }
+        }
+        h1 {
+            color: $red;
+        }
+    }
+    &.blue {
+        .info-box__rightside {
+            background-color: $blue;
+
+            a {
+                color: $white;
+    
+                &:after {
+                    background-color: $white;
+                }
+                &:hover {
+                    color: $dark-gray !important;
+    
+                    &:after {
+                        background-color: $dark-gray;
+                    }
+                }
+            }
+        }
+        .info-box__leftside__intro-text {
+            color: $blue;
+
+            a {
+                color: $blue;
+
+                &:after {
+                    background-color: $blue;
+                }
+                &:hover {
+                    color: $dark-gray !important;
+                    
+                    &:after {
+                        background-color: $dark-gray;
+                    }
+                }
+            }
+        }
+        h1 {
+            color: $blue;
+        }
+    }
+    .grid-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+
+        @include breakpoint(medium) {
+            width: 100%;
+        }
+    }
+    &__leftside {
+        background: rgba(255, 255, 255, .9);
+        color: $dark-gray;
+        padding: 2em 0em calc(2em - 1rem);
+
+        @include breakpoint(medium) {
+            max-width: 100%;
+            padding: 3em 3em calc(3em - 1rem);
+        }
+        &__wrapper {
+            width: 80%;
+            max-width: 560px;
+            margin: 0px auto;
+
+            @include breakpoint(medium) {
+                width: 90%;
+            }
+        }
+        h1 {
+            + .info-box__leftside__intro-text {
+                margin-top: 1em;
+            }
+        }
+        &__intro-text {
+            font-size: 150%;
+            line-height: 130%;
+        }
+        &__subtext {
+            font-size: 120%;
+            line-height: 140%;
+            font-weight: bold;
+            margin-top: 1.5em;
+        }
+        a {
+            color: $dark-gray;
+            display: inline-block;
+            transition: .2s ease-in-out;
+
+            &:after {
+                display: block;
+                content: '';
+                width: 100%;
+                height: 2px;
+                position: relative;
+                bottom: 5px;
+                transition: .2s ease-in-out;
+            }
+            &:hover {
+                font-weight: normal;
+            }
+        }
+        ul {
+            margin-left: 20px !important;
+            margin-top: 40px;
+
+            li {
+                list-style-type: disc;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__rightside {
+        opacity: .9;
+        color: $white;
+        padding: 2em 10% calc(2em - 1rem);
+
+        @include breakpoint(medium) {
+            padding: 4em 4em calc(4em - 1rem);
+        }
+        h3 {
+            font-weight: bold;
+            margin-bottom: 1em;
+            font-size: 140%;
+        }
+        a {
+            transition: .2s ease-in-out;
+            display: inline-block;
+
+            &:after {
+                display: block;
+                content: '';
+                width: 100%;
+                height: 2px;
+                position: relative;
+                bottom: 5px;
+                transition: .2s ease-in-out;
+            }
+            &:hover {
+                font-weight: normal;
+            }
+        }
+        img {
+            width: auto;
+            display: block;
+            margin: 0px auto 40px;
+
+            @include breakpoint(large) {
+                width: 100%;
+                margin-bottom: 60px;
+            }
+        }
+    }
+}

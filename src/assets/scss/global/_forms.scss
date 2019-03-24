@@ -1,0 +1,82 @@
+[type='text'], 
+[type='password'], 
+[type='date'], 
+[type='datetime'], 
+[type='datetime-local'], 
+[type='month'], 
+[type='week'], 
+[type='email'], 
+[type='number'], 
+[type='search'], 
+[type='tel'], 
+[type='time'], 
+[type='url'], 
+[type='color'],
+textarea {
+    border: 1.25px solid $light-gray;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0);
+    transition: .2s ease-in-out;
+    color: $dark-gray;
+    height: auto;
+    font-size: 120%;
+
+    @include breakpoint(medium) {
+        font-size: 100%;
+    }
+    &:focus {
+        outline: none;
+        border: 1.25px solid #37bee3;
+        border-left:6.25px solid #37bee3;
+        background-color: #fefefe;
+        box-shadow: 0 0 0 #565656;
+        transition: .2s ease-in-out;
+        color: $blue;
+    }
+}
+label {
+    color: $dark-gray;
+    font-size: 120%;
+    transition: .2s ease-in-out;
+
+    @include breakpoint(medium) {
+        font-size: 100%;
+    }
+    &.required {
+        &:after {
+            display: inline-block;
+            content: '*';
+        }
+    }
+}
+select {
+    border: 1.25px solid $light-gray;
+    color: $light-gray;
+    transition: .2s ease-in-out;
+    height: auto;
+    font-size: 120%;
+
+    @include breakpoint(medium) {
+        font-size: 100%;
+    }
+    &:focus {
+        border-left: 6.25px solid #37bee3;
+        color: $blue;
+        transition: .2s ease-in-out;
+    }
+}
+input.button.primary {
+    min-width: 20vw;
+    margin-top: 20px;
+}
+legend {
+    font-size: 100%;
+    margin-top: 10px;
+
+    @include breakpoint(medium) {
+        font-size: 85%;
+    }
+}
+textarea {
+    height: 200px !important;
+    resize: none;
+}

@@ -1,0 +1,38 @@
+.family-brands {
+    // background-image: linear-gradient(to right, $secondary-color, $light-blue);
+    @include linear-gradient($secondary-color, $light-blue);
+    padding: 3rem 2rem 1.5rem;
+    text-align: center;
+
+    h3 {
+        color: $white;
+        font-weight: $global-weight-normal;
+        font-size: 200%;
+    }
+
+    .family-brand-logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @include breakpoint(medium) {
+            flex-direction: row;
+
+        }
+
+        img {
+            align-self: center;
+            margin: 20px;
+            max-width: 130px;
+            transition: .2s ease-in-out;
+
+            @include breakpoint(medium) {
+                margin: 2rem;
+            }
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

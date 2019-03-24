@@ -1,0 +1,36 @@
+<div class="grid-x ecology-mobile-nav__wrapper">
+    <div class="cell">
+        <h2><strong>Focus areas of ecology awareness</strong></h2>
+        <p>Click on links to jump to a specific focus area<br /><br /></p>
+    </div>
+    <div class="cell ecology">
+        <ul class="eco-slider ecology-nav__mobile">
+            {{#each data.ecology-bookmarks}}
+            <li class="ecology-nav__item" data-slide="{{data-slide}}">
+                <span>{{bookmark-title}}</span>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>
+<div class="eminem">
+    <div class="ecology-wrapper">
+        <div class="eco-slider ecology-slider">
+            {{#each data.ecology-slider}}
+            <div class="ecology-slide" data-slide="slide-{{slide-number}}">
+                <div class="ecology-slide__image"><img src="{{slide-img}}" alt="{{slide-img-alt}}" /></div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="ecology eco-info">
+        <div class="eco-slider ecology-nav">
+            {{#each data.ecology-slider}}
+            <div class="ecology-nav__item">
+                <h3>{{slide-title}}</h3>
+                {{{slide-content}}}
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

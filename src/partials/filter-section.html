@@ -1,0 +1,44 @@
+{{#ifpage 'products-landing'}}
+    {{#each data.filter-section-products}}
+    <div class="section {{section-class}}">
+        <h2>{{section-title}}</h2>
+        <p>Explore <span class="product-number">{{num-of-products}}</span> {{type-of-product}}</p>
+        <div class="small-12 columns">
+            <div class="content-carousel fullproductlist">
+                <div class="productList">
+                    {{#each products}}
+                    <div class="slide-content">
+                        <div class="product">
+                            <a href="{{product-page}}">
+                                <img src="assets/img/{{product-img}}.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="productShadow"></div>
+                        <a href="{{product-page}}" class="view-link">View</a>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+{{/ifpage}}
+
+{{#ifpage 'recipes-landing'}}
+    <h2>Herr's Recipes</h2>
+    <p>Explore <span class="product-number">55</span> different Herr’s recipes</p>
+    <div class="grid-x grid-margin-x grid-margin-y recipe-cards">
+        {{#each data.recipe-cards}}
+            {{> card}}
+        {{/each}}
+    </div>
+{{/ifpage}}
+
+{{#ifpage 'news-landing'}}
+    <h2>Herr's Feed</h2>
+    <div class="grid-x grid-margin-x grid-margin-y newspage-cards">
+        {{#each data.news-cards}}
+            {{> card}}
+        {{/each}}
+    </div>
+{{/ifpage}}

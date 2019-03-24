@@ -1,0 +1,53 @@
+<div class="grid-x similar">
+    <h2 class="cell similar__heading">{{similar-heading}}</h2>
+    {{#ifpage 'nutrition'}}
+        <form class="similar__brands">
+            <ul class="filters">
+                <li>
+                    <p>Brands:</p>
+                </li>
+                <li>
+                    <input type="radio" id="all" name="brands" value="all">
+                    <label for="all">All</label>
+                </li>
+                <li>
+                    <input type="radio" id="brand1" name="brands" value="herrs">
+                    <label for="brand1">Herr's</label>
+                </li>
+                <li>
+                    <input type="radio" id="brand2" name="brands" value="good">
+                    <label for="brand2">Good Natured Selects</label>
+                </li>
+                <li>
+                    <input type="radio" id="brand3" name="brands" value="golite">
+                    <label for="brand3">Go Lite!</label>
+                </li>
+                <li>
+                    <input type="radio" id="brand4" name="brands" value="flavor">
+                    <label for="brand4">Flavor Mill</label>
+                </li>
+                <li>
+                    <input type="radio" id="brand5" name="brands" value="cheyenne">
+                    <label for="brand5">Cheyenne</label>
+                </li>
+            </ul>
+        </form>
+    {{/ifpage}}
+    <div class="cell small-12 columns similar__container">
+        {{#ifpage 'product-details'}}
+            {{> similar-products}}
+        {{/ifpage}}
+
+        {{#ifpage 'nutrition'}}
+            {{> similar-products}}
+        {{/ifpage}}
+
+        {{#ifpage 'recipe-details'}}
+            {{> recipes-slider}}
+        {{/ifpage}}
+
+        {{#ifpage 'news-details'}}
+            {{> news-slider}}
+        {{/ifpage}}
+    </div>
+</div>

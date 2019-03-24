@@ -1,0 +1,102 @@
+.card-set {
+    transform: translateY(-8em);
+    margin: 0 auto;
+}
+.bios {
+    border-radius: 10px;
+    margin: 40px auto 0px;
+    overflow: hidden;
+    background: transparent;
+    padding-bottom: 1em;
+    position: relative;
+
+    @include breakpoint(medium) {
+        margin: .3em;
+        margin: 40px auto 0px;
+    }
+    @include breakpoint(large) {
+        max-width: 30%;
+        margin: 40px auto;
+    }
+    img {
+        max-width: 103% !important;
+        width: 103% !important;
+        transform: translateX(-3px) scale(1);
+        transition: .2s ease-in-out;
+    }
+    > a {
+        overflow: hidden;
+
+        &:hover {
+            img {
+                transform: translateX(-3px) scale(1.1);
+            }
+        }
+    }
+    &-details {
+        &__name {
+            text-align: center;
+        }
+        &__title {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 80%;
+            letter-spacing: 1px;
+            margin-top: -10px;
+
+            // @include breakpoint(medium) {
+
+            //     font-size: 80% !important;
+            //     line-height: 130% !important;
+            // }
+        }
+        &__story {
+            padding: .5em;
+            font-size: 110%;
+
+            @include breakpoint(medium) {
+                padding: 1em;
+                font-size: 100%;
+            }
+        }
+        &__view-bio {
+            position: absolute;
+            bottom: 0;
+            font-size: 110%;
+
+            @include breakpoint(medium) {
+                font-size: 100%;
+            }
+            a {
+                margin: 0 0 0 .2em;
+                position: relative;
+                bottom: 1.5em;
+                left: .5em;
+                transition: .2s ease-in-out;
+                display: inline-block;
+
+                @include breakpoint(medium) {
+                    left: 1em;
+                }
+                &:after {
+                    display: block;
+                    content: '';
+                    width: 100%;
+                    height: 2px;
+                    background-color: $red;
+                    position: relative;
+                    bottom: 3px;
+                    transition: .2s ease-in-out;
+                }
+                &:hover {
+                    font-weight: normal;
+                    color: $blue;
+        
+                    &:after {
+                        bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

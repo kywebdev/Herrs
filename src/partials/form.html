@@ -1,0 +1,65 @@
+<form class="cell grid-x grid-margin-x">
+    <div class="cell">
+        <fieldset>
+            <legend>
+                *Required field
+            </legend>
+        </fieldset>
+    </div>
+    <div class="cell">
+        <label class="required">Subject</label>
+        <select required>
+            <option value="" selected disabled>Choose a subject from the dropdown</option>
+            <option value="subject1">Subject 1</option>
+            <option value="subject2">Subject 2</option>
+            <option value="subject3">Subject 3</option>
+        </select>
+    </div>
+    <div class="cell large-6 grid-x">
+        <div class="cell">
+            <label class="required">First Name</label>
+            <input type="text" placeholder="First name" required>
+        </div>
+        <div class="cell">
+            <label class="required">Last Name</label>
+            <input type="text" placeholder="Last name" required>
+        </div>
+        <div class="cell">
+            <label>Street</label>
+            <input type="text" placeholder="Street name">
+        </div>
+        <div class="cell">
+            <label>City</label>
+            <input type="text" placeholder="City name">
+        </div>
+    </div>
+    <div class="cell large-6 grid-x">
+        <div class="cell">
+            <label>State</label>
+            <select>
+                <option value="AL">Alabama</option>
+                <option value="state2">State 2</option>
+                <option value="state3">State 3</option>
+            </select>
+        </div>
+        <div class="cell">
+            <label>Zip Code</label>
+            <input type="text" placeholder="Enter ZIP">
+        </div>
+        <div class="cell">
+            <label class="required">Email</label>
+            <input type="email" placeholder="Enter email address" required>
+        </div>
+        <div class="cell">
+            <label class="required">Phone</label>
+            <input type="tel" placeholder="Enter phone number" required>
+        </div>
+    </div>
+    <div class="cell">
+        <label>Send us a message</label>
+        <textarea placeholder="Type your message here"></textarea>
+    </div>
+    <div class="cell text-center contactForm-wrapper__button">
+        <input class="button primary" type="submit" value="Submit">
+    </div>
+</form>

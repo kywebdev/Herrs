@@ -1,0 +1,17 @@
+<li class="accordion-item {{accordion-item-class}}" data-accordion-item>
+    <a href="#" class="accordion-title">
+        <h3 class="accordion-panel-title" id="{{accordion-item-id}}">{{panel-title}}</h3>
+        <img class="arrow" src="{{root}}assets/img/down-arrow-med.png" alt="">
+    </a>
+    <div class="accordion-content" data-tab-content>
+        <div class="grid-x grid-margin-x accordion-content-wrap">
+            {{#each grid-blocks}}
+            <div class="cell large-{{block-size-lg}} medium-{{block-size-md}}">
+                <div class="accordion-panel-content {{panel-class}}">
+                    {{{panel-content}}}
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</li>

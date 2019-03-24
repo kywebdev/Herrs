@@ -1,0 +1,237 @@
+.product-details {
+    h2 {
+        font-weight: bold;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 639px) {
+            font-size: 175%;
+        }
+    }
+    .product-image {
+        text-align: right;
+
+        @media screen and (max-width: 999px) {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            max-width: 580px;
+            transform: translateY(-50%);
+            position: relative;
+            top: 50%;
+            margin: -150px 0px 0px auto;
+
+            @media screen and (max-width: 999px) {
+                transform: initial;
+                top: auto;
+                max-width: 300px;
+            }
+            @media screen and (max-width: 639px) {
+                max-width: 200px;
+            }
+        }
+    }
+    .product-description-container {
+        @media screen and (max-width: 999px) {
+            margin-top: 25px;
+        }
+        .product-description {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+            @media screen and (max-width: 999px) {
+                top: auto;
+                transform: none;
+            }
+        }
+        p {
+            width: 95%;
+            margin-right: 5%;
+            max-width: 600px;
+            line-height: 1.8;
+
+            @media screen and (max-width: 999px) {
+                width: 100%;
+                margin-right: 0%;
+                max-width: none;
+            }
+            @media screen and (max-width: 639px) {
+                font-size: 125%;
+            }
+        }
+    }
+    .social-share {
+        p {
+            text-transform: uppercase;
+            font-weight: 900;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        ul {
+            margin-left: 0px !important;
+
+            li {
+                list-style-type: none;
+                margin-right: 25px;
+                display: inline-block;
+
+                a {
+                    font-size: 34px;
+                    color: $blue;
+                    transition: .2s ease-in-out;
+                    position: relative;
+                    top: 0px;
+
+                    &:hover {
+                        color: $yellow !important;
+                        font-weight: normal;
+                        top: -10px;
+                    }
+                }
+            }
+        }
+    }
+    .nutrition-facts {
+        img {
+            width: auto;
+            display: block;
+            margin: 0px auto;
+        }
+    }
+}
+.article-text {
+    margin-top: 70px;
+
+    @media screen and (max-width: 639px) {
+        margin-top: 50px;
+    }
+    > p {
+        &:first-of-type {
+            font-size: 140%;
+
+            @media screen and (max-width: 639px) {
+                font-size: 120%;
+            }
+        }
+    }
+}
+figure {
+    margin: 1em 0em;
+}
+p {
+    + figure {
+        margin-top: 0em;
+    }
+}
+figcaption {
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 90%;
+}
+.share-article {
+    margin-top: 2.5em;
+
+    ul {
+        margin-left: 0px !important;
+    }
+    &__share-text {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 80%;
+    }
+    &__list-item {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    &__link {
+        position: relative;
+        top: 0px;
+        transition: .2s ease-in-out;
+
+        &:hover {
+            font-weight: normal;
+            top: -7px;
+
+            .share-article__icon {
+                color: $yellow;
+            }
+        }
+    }
+    &__icon {
+        font-size: 170%;;
+        color: $blue;
+        transition: .2s ease-in-out;
+    }
+}
+.recipe-details {
+    max-width: 1500px;
+    width: 90%;
+
+    @media screen and (max-width: 999px) {
+        flex-direction: column-reverse;
+        margin: 200px auto 50px;
+    }
+    &__recipe-info {
+        @media screen and (max-width: 999px) {
+            margin-top: -70px;
+        }
+        .social-share {
+            p {
+                text-transform: uppercase;
+                font-weight: 900;
+                font-size: 14px;
+                letter-spacing: 1px;
+                margin-bottom: 5px;
+            }
+            ul {
+                margin-left: 0px !important;
+
+                li {
+                    list-style-type: none;
+                    margin-right: 25px;
+                    display: inline-block;
+
+                    a {
+                        font-size: 34px;
+                        color: $blue;
+                        transition: .2s ease-in-out;
+                        position: relative;
+                        top: 0px;
+
+                        &:hover {
+                            color: $yellow !important;
+                            font-weight: normal;
+                            top: -10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__recipe-product {
+        margin-top: -200px;
+        text-align: center;
+        
+        @media screen and (max-width: 999px) {
+            transform: initial;
+            top: auto;
+            max-width: 350px;
+            margin: -100px auto;
+        }
+        img {
+            width: 100%;
+            max-width: 700px;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            position: relative;
+            top: 50%;
+            margin: 0px 0px 0px auto;
+        }
+    }
+}

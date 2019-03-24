@@ -1,0 +1,32 @@
+<div class="cell large-3 sidebar">
+    {{#ifpage 'products-landing'}}
+        {{#each data.sidebar-section-products}}
+        <div class="sidebar-section">
+            <p class="view-by">{{section-title}}</p>
+            <ul class="filters">
+                {{#each sidebar-filters-products}}
+                <li>
+                    <input type="checkbox" id="{{id}}" value="{{value}}" />
+                    <label for="{{id}}">{{filter-label}}</label>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/each}}
+    {{/ifpage}}
+    {{#ifpage 'recipes-landing'}}
+        {{#each data.sidebar-section-recipes}}
+        <div class="sidebar-section">
+            <p class="view-by">{{section-title}}</p>
+            <ul class="filters">
+                {{#each sidebar-filters-recipes}}
+                <li>
+                    <input type="checkbox" id="{{id}}" value="{{value}}" />
+                    <label for="{{id}}">{{filter-label}}</label>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+        {{/each}}
+    {{/ifpage}}
+</div>

@@ -1,0 +1,23 @@
+<div class="card-set grid-x grid-margin-x grid-container align-center" data-equalizer>
+    {{#each data.bio-cards}}
+    <div class="cell large-4 medium-6 card bios" data-equalizer-watch>
+        <a href="{{bio-link}}">
+            <img src="{{root}}assets/img/bios/{{card-img}}" alt="{{person-name}}" />
+        </a>
+        <div class="card-section bios-details">
+            <div class="bios-details__name">
+                <h2 class="secondary">{{person-name}}</h2>
+            </div>
+            <div class="bios-details__title">
+                <strong>{{person-title}}</strong>
+            </div>
+            <div class="bios-details__story">
+                <p>{{person-desc}}</p>
+            </div>
+            <div class="bios-details__view-bio">
+                <a href="{{bio-link}}" class="bios-details__view-bio-link">View Bio</a>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

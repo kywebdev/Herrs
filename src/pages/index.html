@@ -1,0 +1,41 @@
+---
+meta-title: Home
+---
+
+{{> search-navigation}}
+{{> main-navigation-med}}
+<div class="homepage-slider">
+    {{> hero-slide}}
+</div>
+{{> tour-badge}}
+<div class="you-know-goodness">
+    <div class="you-know-goodness__text">
+        <h2 class="you-know-goodness__h2">You know goodness when you see it</h2>
+        <p class="you-know-goodness__p">A timeless song, the encouraging word, your dearest memory — it’s all Forever Good. We’ve simply been making our version in the form of home-crafted snack recipes since 1946. You know goodness when you see it. We’re willing to bet you’ll know goodness when you taste it, too.</p>
+    </div>
+    <div class="you-know-goodness__chip-bowl"></div>
+</div>
+<div class="homepage-callouts grid-x">
+    {{#each data.homepage-callouts}}
+        {{> homepage-callout}}
+    {{/each}}
+</div>
+<div class="schedule-a-visit">
+    <div class="section-container">
+        <h2>See the story. <br />Taste the legacy.</h2>
+        <p>You haven’t lived until you’ve tried a fresh Herr’s Potato Chip off the line during the Herr’s Snack Factory Tour.</p>
+        <a href="" class="primary large button">Schedule a Visit</a>
+    </div>
+</div>
+<div class="the-latest">
+    <div class="section-container">
+        <h2 class="the-latest__heading">The Latest</h2>
+        <p class="the-latest__intro">Keep up with the latest news and announcements from Herr’s.</p>
+        <div class="news-cards">
+            <div class="section-container">
+                {{> news-slider}}
+            </div>
+        </div>
+    </div>
+</div>
+{{> homepage-social-cards}}

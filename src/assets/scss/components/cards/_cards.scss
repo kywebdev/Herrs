@@ -1,0 +1,187 @@
+.card {
+    box-shadow: $card-shadow;
+    border: 0;
+    overflow: hidden;
+    background: $white;;
+    height: 100%;
+    position: relative;
+
+    &.featured {
+        .card__card-tag {
+            display: block;
+            background-color: $red;
+        }
+    }
+    &.fan-submitted {
+        .card__card-tag {
+            display: block;
+            background-color: $blue;
+        }
+    }
+    &.divider {
+        .card__card-divider {
+            display: block;
+        }
+    }
+    &.rounded {
+        border-radius: 10px;
+    }
+    &.no-shadow {
+        box-shadow: none;
+
+        .card__card-container {
+            padding: 1rem 0rem 1.5rem;
+        }
+        .card__card-view-link {
+            left: 0rem;
+        }
+    }
+    &__card-divider {
+        background: none;
+        color: $primary-color;
+        padding-left: 0;
+        font-weight: $global-weight-medium;
+        line-height: 16px;
+        padding-bottom: 15px;
+        position: relative;
+        z-index: 1;
+        display: none;
+    }
+    &__card-icon {
+        font-size: 16px;
+    }
+    &__card-time {
+        padding-left: 5px;
+        font-size: 16px;
+
+        .posted {
+            color: $dark-gray;
+            margin-left: -10px;
+        }
+    }
+    &__card-link {
+        overflow: hidden;
+        transition: .2s ease-in-out;
+        position: relative;
+        display: block;
+
+        &:hover {
+            .card__card-img {
+                transform: scale(1.1);
+            }
+        }
+    }
+    &__card-img {
+        transform: scale(1);
+        transition: .2s ease-in-out;
+        width: 100%;
+    }
+    &__card-tag {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: $white;
+        text-transform: uppercase;
+        padding: 5px 15px 3px;
+        z-index: 1;
+        border-radius: 5px;
+        font-size: 15px;
+        letter-spacing: 2px;
+        display: none;
+    }
+    &__card-section {
+        background-color: $white;
+        position: relative;
+        z-index: 1;
+        height: 100%;
+    }
+    &__card-container {
+        padding: 1rem 1rem 1.5rem;
+    }
+    &__card-heading {
+        font-size: 140% !important;
+        text-transform: capitalize;
+        font-weight: $global-weight-medium;
+
+        &.secondary {
+            color: $secondary-color;
+            font-weight: $global-weight-normal;
+            font-size: 1.75rem;
+        }
+    }
+    &__card-text {
+        color: $medium-gray;
+        line-height: inherit;
+    }
+    &__card-view-link {
+        font-size: 20px;
+        display: inline-block;
+        font-weight: normal;
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        transition: .2s ease-in-out;
+
+        &:after {
+            display: block;
+            content: '';
+            width: 100%;
+            height: 2px;
+            background-color: $red;
+            position: relative;
+            bottom: 4px;
+            transition: .2s ease-in-out;
+        }
+        &:hover {
+            font-weight: normal;
+
+            &:after {
+                bottom: 6px;
+            }
+        }
+    }
+    &.leadership-card {
+        text-align: center;
+        h4{
+            color:$dark-gray;
+            font-weight: bold;
+            font-size: 200% !important;
+            padding-top: 1em;
+        }
+        p{
+            margin: 0 auto;
+            font-size: 140% !important;
+            max-width: 75%;
+        }
+    }
+}
+.recipe-cards {
+    margin-bottom: 10px;
+
+    .cell {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+.leadership-cards {
+    margin-bottom: 10px;
+
+    .cell {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+.newspage-cards {
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+    @media screen and (max-width: 639px) {
+        margin-top: 70px;
+    }
+}
+.center {
+    .card__card-view-link {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

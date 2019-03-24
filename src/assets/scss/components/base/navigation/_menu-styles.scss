@@ -1,0 +1,20 @@
+.menu {
+    @include breakpoint(medium) {
+        flex-wrap: nowrap;
+    }
+}
+.menu a {
+    color: $dark-gray;
+    font-weight: $global-weight-normal;
+    display: inline-block;
+    padding: 5px;
+    border: none;
+
+    &:hover {
+        font-weight: $global-weight-bold;
+    }
+    &.is-active {
+        font-weight: $global-weight-bold;
+        color: $secondary-color;
+    }
+}

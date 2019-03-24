@@ -1,0 +1,58 @@
+<div class="grid-container-fluid">
+    <div class="container-time">
+        <div class="timeline show-for-medium text-center">
+                <p>Click on dates to view more </p>
+            <div class="timeline-nav">
+                {{#each data.timeline}}
+                <div class="timeline-nav__item">{{year}}</div>
+                {{/each}}
+            </div>
+            <div class="timeline-line"></div>
+        </div>
+        <div class="timeline-wrapper show-for-medium">
+            <div class="timeline-slider">
+                {{#each data.timeline}}
+                <div class="timeline-slide" data-year="{{year}}">
+                    <div class="timeline-slide__image">
+                        <img src="{{timeline-img}}" alt="{{timeline-img-alt}}">
+                        <div class="timeline-slide__content">
+
+                        </div>
+                    </div>
+                    <div>
+                        <br>
+                        <span class="timeline-year">In {{year}}...</span>
+                        <h4 class="timeline-title">{{timeline-title}}</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim dolore at ipsum sequi alias nobis beatae debitis ex doloremque eum, molestias unde voluptatibus libero mollitia minus voluptate magni deserunt nisi!</p>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="timeline-wrapper show-for-small-only">
+            <div class="timeline-slider">
+                {{#each data.timeline}}
+                <div class="timeline-slide" data-year="{{year}}">
+                    <div class="timeline-slide__image">
+                        <img src="{{timeline-img}}" alt="{{timeline-img-alt}}">
+                        <div class="timeline-slide__content">
+                            <span class="timeline-year">In {{year}}...</span>
+                            <h4 class="timeline-title">{{timeline-title}}</h4>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="grid-x timeline-mobile-nav__wrapper">
+                <p>Click on dates to view more</p>
+            <div class="cell timeline show-for-small-only small-12">
+                <ul class="timeline-nav__mobile">
+                    {{#each data.timeline}}
+                    <li class="timeline-nav__item primary large button" data-slide="{{slide-number}}">{{year}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

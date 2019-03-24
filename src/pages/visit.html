@@ -1,0 +1,22 @@
+---
+meta-title: Visit Us
+hero-bg: hero-visit-us.jpg
+breadcrumbs: <span class="current-page">Visit Us</span>
+page-title: Take a tour for your taste buds
+intro-text: Enjoy a fun and flavorful day for the whole family at Herr's Snack Factory Tour and Visitor Center in Nottingham, Pennslyavnia.
+---
+
+{{> header}}
+{{> tour-badge}}
+
+<div class="grid-x">
+    <div class="grid-container">
+        <h1 class="center tertiary">Reservations</h1>
+        <p class="center">Call us at 800.284.4788 or <a href="">Schedule Online</a></p><br>
+        <div class="grid-x grid-margin-x grid-margin-y">
+            {{#each data.visit-us}}
+                {{> card}}
+            {{/each}}
+        </div>
+    </div>
+</div>

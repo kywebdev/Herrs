@@ -1,0 +1,36 @@
+---
+meta-title: Our Products
+
+hero-bg: hero-products-landing.jpg
+breadcrumbs: <span class="current-page">Our Products</span>
+page-title: Our Products
+intro-text: Made from the finest ingredients available and always bursting with flavor, our snacks have been giving people something to smile about since 1946.
+
+callout-img-1: assets/img/homepage-card1.jpg
+callout-text-1: From food to community to ecology, we try to stay true to what is inherently good.
+callout-btn-text-1: See Our Values
+
+callout-img-2: assets/img/homepage-card4.jpg
+callout-text-2: Good times with good people call for an equally as good place, so host your next event at the Herr's Visitor Center.
+callout-btn-text-2: Book Event
+---
+
+{{> header}}
+{{> tour-badge}}
+
+<div class="grid-x filtering-container products">
+    {{> filtering-sidebar}}
+    <div class="grid-x cell large-9 main-content">
+        <button class="refine-filter" data-toggle="refine-modal">Refine</button>
+        <div class="list cell">
+            {{> filter-section}}
+        </div>
+        <div class="load-more cell">
+            <a href="" class="secondary large button loadMore">More Products</a>
+        </div>
+    </div>
+</div>
+
+<div class="grid-x">
+    {{> pre-footer-callouts}}
+</div>

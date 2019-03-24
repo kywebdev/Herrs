@@ -1,0 +1,13 @@
+{{#unlesspage 'products-landing' 'recipes-landing' 'news-landing' 'nutrition'}}
+    <div class="content show-for-small-only">
+        {{> body}}
+        {{> family-brands-med}}
+    </div>
+{{/unlesspage}}
+
+{{#ifpage 'products-landing' 'recipes-landing' 'news-landing' 'nutrition'}}
+    {{> body}}
+    <div class="content show-for-small-only">
+        {{> family-brands-med}}
+    </div>
+{{/ifpage}}

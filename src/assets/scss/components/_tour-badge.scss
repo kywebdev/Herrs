@@ -1,0 +1,110 @@
+.tour-badge {
+    position: fixed;
+    right: -10px;
+    z-index: 1000;
+    top: 360px;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        right: 0px;
+
+        .tour-badge__open, .tour-badge__closed {
+            color: $white !important;
+        }
+    }
+    @media screen and (max-width: 945px) {
+        display: none;
+    }
+}
+.tour-badge__open {
+    background-color: $red;
+    padding: 20px 20px;
+    width: 240px;
+    height: 80px;
+    color: $white;
+    text-decoration: none;
+    display: block;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.open-state__hide-badge {
+    position: absolute;
+    top: -35px;
+    right: 25px;
+    z-index: 1;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-bottom: 13px;
+    text-shadow: 0px 1px 10px rgba($dark-gray, .6);
+
+    &:after {
+        display: block;
+        content: '';
+        width: calc(100% - 24px);
+        height: 1px;
+        background-color: $white;
+        position: relative;
+        bottom: 5px;
+    }
+}
+.open-state__close-img {
+    margin-left: 5px;
+    width: 14px;
+    position: relative;
+    top: -1px;
+}
+.tour-badge__closed {
+    background-color: $red;
+    padding: 26px 20px 20px 10px;
+    width: 75px;
+    height: 80px;
+    color: $white;
+    text-decoration: none;
+    display: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.closed__closed-state {
+    position: relative;
+    top: -6px;
+}
+.closed-state__text {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.closed-state__arrow-img {
+    display: block;
+    width: 21px;
+    margin: 6px auto 0px;
+}
+.open-state__badge-img {
+    position: absolute;
+    top: -60px;
+    left: -40px;
+}
+.open-state__text {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0px auto;
+    position: relative;
+    top: 27px;
+    width: 125px;
+
+    &:after {
+        display: block;
+        content: '';
+        width: calc(100% - 35px);
+        height: 1px;
+        background-color: $white;
+        position: relative;
+        bottom: 4px;
+    }
+}
+.open-state__arrow-img {
+    margin-left: 10px;
+}

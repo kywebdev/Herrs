@@ -1,0 +1,63 @@
+.key {
+    margin-bottom: 20px;
+
+    p {
+        margin: 0px 40px 0px 0px;
+        display: inline-block;
+    }
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+    thead {
+        border: none;
+        border-bottom: 1px solid #9f9d9d;
+        background-color: transparent;
+
+        tr {
+            th {
+                padding: 10px 0px;
+                text-align: left;
+            }
+        }
+    }
+    tbody {
+        border: none;
+        background-color: transparent;
+
+        tr {
+            &:nth-child(even) {
+                background-color: transparent;
+            }
+            td {
+                padding: 0px;
+                color: $dark-gray;
+
+                &:nth-of-type(1) {
+                    width: 27px;
+                }
+                &:nth-of-type(2) {
+                    width: 50px;
+                }
+            }
+            &:first-of-type {
+                td {
+                    padding: 15px 0px 0px;
+                }
+            }
+        }
+    }
+    tfoot {
+        border: none;
+    }
+}
+.u {
+    color: $blue;
+    font-weight: bold;
+}
+.ud {
+    color: $yellow;
+    font-weight: bold;
+}

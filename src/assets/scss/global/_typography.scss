@@ -1,0 +1,34 @@
+@import url("https://use.typekit.net/chj3koh.css");
+
+h1 {
+    font-size: $h1;
+    font-weight: $global-weight-bold;
+
+    &.white {
+        color: $white;
+    }
+}
+h2 {
+    font-size: $h2;
+}
+h3 {
+    font-size: $h3;
+}
+h4 {
+    font-size: $h4;
+}
+h5 {
+    font-size: $h5;
+}
+ul {
+    margin-left: 0 !important;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+
+    &:hover {
+        font-weight: $global-weight-bold;
+        color: $secondary-color !important;
+    }
+}

@@ -1,0 +1,65 @@
+.button {
+    border-radius: 500px;
+    box-shadow: $button-shadow;
+    font-weight: $global-weight-bold;
+
+    &:hover {
+        color: $white !important;
+    }
+    &.secondary {
+        color: $white;
+        background-color: $warning-color;
+
+        &:hover, &:focus {
+            color: $white !important;
+            background-color: darken($warning-color, 10%);
+        }
+    }
+    &.tertiary {
+        color: $white;
+        background-color: $blue;
+
+        &:hover, &:focus {
+            color: $white !important;
+            background-color: darken($blue, 10%);
+        }
+    }
+}
+.trigger {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+
+    button {
+        width: 52px;
+        height: 52px;
+        transition: .2s ease-in-out;
+
+        &:hover {
+            background-color: #545454;
+        }
+        img {
+            width: 20px;
+            position: relative;
+            top: 0px;
+        }
+    }
+}
+#trigger {
+    i {
+        font-size: 1.5rem;
+        color: aliceblue;
+        padding-right: 30px;
+    }
+}
+.open-menu {
+    display: block;
+
+    @include breakpoint(large) {
+        display: none;
+    }
+}
+.close-button {
+    padding-top: 10vh;
+    font-size: 3em;
+}

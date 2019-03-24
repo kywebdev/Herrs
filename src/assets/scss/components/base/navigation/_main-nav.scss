@@ -1,0 +1,121 @@
+.nav-wrapper {
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+
+    @include breakpoint(large) {
+        justify-content: flex-end;
+        background: $white;
+        padding: .5em 0;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
+}
+.brand-logo {
+    + .nav-wrapper {
+        display: none;
+        position: fixed;
+        top: 52px;
+        z-index: 999;
+        width: 100%;
+
+        @include breakpoint(large) {
+            display: flex;
+        }
+    }
+}
+.main-nav {
+    display: block;
+    padding-top: 150px;
+
+    @include breakpoint(large) {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 0;
+        align-items: center;
+    }
+}
+.main-nav>li {
+    padding: 0 0;
+    //border-bottom: 1px solid $dark-gray;
+    width: 50vw;
+    font-size: 170%;
+
+    @include breakpoint(large) {
+        border-bottom: none;
+        transition: all .6s;
+        width: 100%;
+        padding: 0 0;
+        font-size: 100%;
+        text-align: center;
+    }
+    &:last-child {
+        border-bottom: none;
+    }
+}
+.main-nav>li.uppercase {
+    text-transform: uppercase;
+    border-bottom: none;
+    width: 100%;
+    font-size: 100%;
+
+    @include breakpoint(large) {
+        border-bottom: none;
+    }
+}
+.underline {
+    border-bottom: 1px solid $dark-gray !important;
+    margin-bottom: 2em;
+
+    a {
+        margin-bottom: 1.3rem;
+    }
+}
+.main-nav:hover>li {
+    @include breakpoint(large) {
+        opacity: .3;
+    }
+}
+.main-nav:hover>li:hover {
+    opacity: 1;
+}
+.social-nav {
+    .menu {
+        display: flex;
+
+        @include breakpoint(large) {
+            padding-left: em-calc(50);
+        }
+        li a {
+            font-size: 100%;
+            text-align: center;
+            margin-left: -11px;
+            transition: all .3s;
+            padding: .6em;
+
+            @include breakpoint(large) {
+                padding: .7em;
+            }
+            &:hover {
+                transform: translateY(-5px);
+                font-weight: normal;
+            }
+        }
+    }
+}
+.menu-modal {
+    z-index: 1000 !important;
+    display: block;
+    padding-bottom: 50px;
+
+    @include breakpoint(large) {
+        display: none;
+    }
+}
+.js-off-canvas-overlay {
+    display: block;
+
+    @include breakpoint(large) {
+        display: none !important;
+    }
+}

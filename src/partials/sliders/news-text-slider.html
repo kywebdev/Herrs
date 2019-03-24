@@ -1,0 +1,7 @@
+<article class="news-article cell small-4">
+    <h4 class="news-article__title">{{card-title}}</h4>
+    {{#unlesspage 'news-details'}}
+    <p class="news-article__snippet">{{card-text}}</p>
+    {{/unlesspage}}
+    <a href="{{card-link}}" class="news-article__read-link">{{card-link-text}}</a>
+</article>

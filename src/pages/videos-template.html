@@ -1,0 +1,76 @@
+---
+meta-title: Videos
+
+hero-bg: hero-videos.jpg
+breadcrumbs: <span class="current-page">Videos</span>
+page-title: Give your eyes something to snack on
+
+callout-img-1: assets/img/homepage-card1.jpg
+callout-text-1: From food to community to ecology, we try to stay true to what is inherently good.
+callout-btn-text-1: See Our Values
+
+callout-img-2: assets/img/homepage-card4.jpg
+callout-text-2: Good times with good people call for an equally as good place, so host your next event at the Herr's Visitor Center.
+callout-btn-text-2: Book Event
+---
+
+{{> header}}
+{{> tour-badge}}
+
+<div class="grid-x videos-container">
+    {{> videos-sidebar}}
+    <div class="grid-x cell large-9 videos-main-content">
+        <h2 class="videos-main-content__heading">Explore Herr's videos</h2>
+        <form class="videos-main-content__form">
+            <select class="videos-main-content__dropdown">
+                <option>Most recent</option>
+                <option>Another option</option>
+                <option>Another option</option>
+                <option>Another option</option>
+            </select>
+        </form>
+        <div class="videos-main-content__video">
+            <a href="https://www.youtube.com/watch?v=zEgFRhdjqgM" target="_blank" class="videos-main-content__video-link">
+                <img src="assets/img/video-poster-4.jpg" alt="Video poster" class="videos-main-content__video-img" />
+            </a>
+        </div>
+        <div class="videos-main-content__video-info">
+            <p class="video-info__date">Posted <span class="video-info__date__hightlight">June 15, 2017</span></p>
+            <h2 class="video-info__video-title">Herr's Pub Pretzels: Duck</h2>
+            <p class="video-info__video-type">:15 Social Video</p>
+            <p class="video-info__video-text">Our own Ed Herr went from Nottingham, PA to the pubs of Nottingham UK to search for pub approval for our Pub Style Pretzels.</p>
+            <div class="video-info__share">
+                <p class="share__share-text">Share</p>
+                <ul>
+                    <li class="share__list-item">
+                        <a href="" target="_blank" class="share__list-item__link">
+                            <span class="fab fa-facebook-f"></span>
+                        </a>
+                    </li>
+                    <li class="share__list-item">
+                        <a href="" target="_blank" class="share__list-item__link">
+                            <span class="fab fa-twitter"></span>
+                        </a>
+                    </li>
+                    <li class="share__list-item">
+                        <a href="" target="_blank" class="share__list-item__link">
+                            <span class="fab fa-pinterest-p"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="video-info__subscribe">
+                <h3 class="subscribe__heading">Subscribe to our YouTube channel</h3>
+                <p class="subscribe__text">See all our latest videos and more by subscribing to our YouTube channel <a href="" target="_blank">here</a>.</p>
+                <p class="subscribe__subscribe-text">Subscribe</p>
+                <a href="" target="_blank" class="subscribe__yt-icon">
+                    <span class="fab fa-youtube"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="grid-x">
+    {{> pre-footer-callouts}}
+</div>

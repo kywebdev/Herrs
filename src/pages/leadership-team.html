@@ -1,0 +1,18 @@
+---
+meta-title: Our Values | Herr's Leadership
+
+hero-bg: hero-leadership-team.jpg
+page-title: Herr's<br />Leadership
+---
+
+{{> header}}
+{{> tour-badge}}
+
+<div class="grid-container">
+        <div class="grid-x grid-margin-x grid-margin-y leadership-cards">
+            {{#each data.leadership-cards}}
+                {{> card}}
+            {{/each}}
+        </div>
+</div>
+

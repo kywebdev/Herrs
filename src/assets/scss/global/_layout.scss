@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+html {
+	box-sizing: border-box;
+	height: 100%;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	@include fluid-type(font-size, $minScreen, $maxScreen, $minFont, $maxFont);
+}
+body {
+	background-image: url('../img/wood-grain-bg.png');
+    overflow-x: hidden;
+    -webkit-font-smoothing: unset;
+    line-height: $baseline;
+}
+sup {
+    top: -0.3em;
+}
+.wrapper {
+    overflow-x: hidden;
+}
+.grid-container {
+    margin: 50px auto;
+    width: 90%;
+    padding: 0px;
+
+    &.no-side-margins {
+        width: 100%;
+        max-width: none;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    &.no-vertical-margins {
+        margin: 0px auto !important;
+
+        .left-padding {
+            padding: 30px 5%;
+
+            @include breakpoint(medium) {
+                padding: 50px 50px 50px 10%;
+            }
+        }
+    }
+    ul {
+        margin-left: 40px !important;
+
+        &.accordion {
+            margin-left: 0px !important;
+
+            li {
+                list-style-type: none;
+                margin-bottom: 0px;
+            }
+        }
+        li {
+            list-style-type: disc;
+            margin-bottom: 10px;
+        }
+    }
+}
+.grid-x {
+    position: relative;
+}
+.section-container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 120px auto 0px;
+}
+hr {
+    border-bottom: 1px solid $dark-gray;
+}
+::selection {
+    background: $red;
+    color: $white;
+}
+::-moz-selection {
+    background: $red;
+    color: $white;
+}

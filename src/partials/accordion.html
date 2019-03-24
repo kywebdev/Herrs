@@ -1,0 +1,22 @@
+<ul class="accordion" data-accordion data-allow-all-closed="true">
+    {{#ifpage 'recipe-details'}}
+        {{#each data.recipe-accordion}}
+            {{> accordion-item}}
+        {{/each}}
+    {{/ifpage}}
+    {{#ifpage 'nutrition'}}
+        {{#each data.nutrition-accordion}}
+            {{> accordion-item}}
+        {{/each}}
+    {{/ifpage}}
+    {{#ifpage 'branch-locations'}}
+        {{#each data.branch-locations-accordion}}
+            {{> accordion-item}}
+        {{/each}}
+    {{/ifpage}}
+    {{#ifpage 'directions'}}
+        {{#each data.directions-accordion}}
+            {{> accordion-item}}
+        {{/each}}
+    {{/ifpage}}
+</ul>

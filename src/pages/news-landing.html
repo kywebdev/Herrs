@@ -1,0 +1,47 @@
+---
+meta-title: The Latest
+
+hero-bg: hero-news-landing.jpg
+breadcrumbs: <span class="current-page">The Latest</span>
+page-title: The Latest
+intro-text: We’re always cooking up something new. Stay up to date on the latest Herr's products, news and announcements.
+
+callout-img-1: assets/img/homepage-card1.jpg
+callout-text-1: From food to community to ecology, we try to stay true to what is inherently good.
+callout-btn-text-1: See Our Values
+
+callout-img-2: assets/img/homepage-card4.jpg
+callout-text-2: Good times with good people call for an equally as good place, so host your next event at the Herr's Visitor Center.
+callout-btn-text-2: Book Event
+---
+
+{{> header}}
+{{> tour-badge}}
+
+<div class="grid-x filtering-container news">
+    {{#unlesspage 'news-landing'}}
+    <div class="grid-x cell large-9 main-content">
+    {{/unlesspage}}
+    {{#ifpage 'news-landing'}}
+    <div class="grid-x cell main-content">
+    {{/ifpage}}
+        <form class="">
+            <select>
+                <option>Most recent</option>
+                <option>Another option</option>
+                <option>Another option</option>
+                <option>Another option</option>
+            </select>
+        </form>
+        <div class="list cell">
+            {{> filter-section}}
+        </div>
+        <div class="load-more cell">
+            <a href="" class="secondary large button loadMore">More of The Latest</a>
+        </div>
+    </div>
+</div>
+
+<div class="grid-x">
+    {{> pre-footer-callouts}}
+</div>

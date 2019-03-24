@@ -1,0 +1,74 @@
+.secondary {
+    color: $secondary-color;
+}
+.tertiary {
+    color: $yellow;
+}
+.center {
+    text-align: center;
+}
+.align-center-mobile {
+    text-align: center !important;
+}
+.align-right {
+    text-align: right;
+}
+.left-padding {
+    padding: 0% 5%;
+
+    @include breakpoint(large) {
+        padding: 0% 0% 0% 10%;
+    }
+    a {
+        color: $red;
+        display: inline-block;
+        transition: .2s ease-in-out;
+
+        &:after {
+            display: block;
+            content: '';
+            width: 100%;
+            height: 2px;
+            background-color: $red;
+            position: relative;
+            bottom: 3px;
+            transition: .2s ease-in-out;
+        }
+        &:hover {
+            font-weight: normal;
+            color: $blue;
+
+            &:after {
+                bottom: 5px;
+            }
+        }
+    }
+    .button {
+        &:after {
+            display: none;
+        }
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+.float-right {
+    float: right;
+}
+.important {
+    font-size: 130%;
+
+    @include breakpoint(medium) {
+        font-size: 150%;
+    }
+}
+.reverse-medium {
+    @media screen and (max-width: 999px) {
+        flex-direction: column-reverse;
+    }
+}
+.list-no-margin {
+    li {
+        margin-bottom: 0px !important;
+    }
+}

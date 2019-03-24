@@ -1,0 +1,1691 @@
+homepage-hero-slides:
+  -
+    background-img: homepage-slide1.png
+    heading: <img src='assets/img/forever-good.png' alt='Forever Good' />
+    subheading: From snacks to family to the environment, everything we do is grounded in Herr's inherently good values.
+    btn: Learn More
+  -
+    background-img: homepage-slide2.png
+    heading: Crisp.<br />Tasty.<br />Timeless.
+    subheading: Explore the Crisp ‘N Tasty chip that put us on the map over 70 years ago.
+    btn: View Product
+  -
+    background-img: homepage-slide3.png
+    heading: The story that started it all
+    subheading: See the Herr family story and the legacy it’s built.
+    btn: View Story
+
+homepage-callouts:
+  -
+    img: assets/img/homepage-card1.jpg
+    text: From food to community to ecology, we try to stay true to what is inherently good.
+    btn-text: See Our Values
+  -
+    img: assets/img/homepage-card2.jpg
+    text: Give your meals an extra crunch, with our snack-infused recipes.
+    btn-text: Explore Recipes
+  -
+    img: assets/img/homepage-card3.jpg
+    text: Crunchy, salty, sweet or savory, there's plenty of goodness to go around.
+    btn-text: View Products
+  -
+    img: assets/img/homepage-card4.jpg
+    text: Good times with good people call for an equally as good place, so host your next event at the Herr's Visitor Center.
+    btn-text: Book Event
+
+sidebar-section-products:
+  -
+    section-title: View Herr's Product Categories
+    sidebar-filters-products:
+      filter1:
+        id: category1
+        value: potato
+        filter-label: Potato Chips
+      filter2:
+        id: category2
+        value: kettle
+        filter-label: Kettle Cooked Potato Chips
+      filter3:
+        id: category3
+        value: baked
+        filter-label: Baked Potato Crisps
+      filter4:
+        id: category4
+        value: pretzels
+        filter-label: Pretzels
+      filter5:
+        id: category5
+        value: cheese
+        filter-label: Cheese Curls
+      filter6:
+        id: category6
+        value: tortillas
+        filter-label: Tortillas
+      filter7:
+        id: category7
+        value: popcorn
+        filter-label: Popcorn
+      filter8:
+        id: category8
+        value: corn
+        filter-label: Corn Chips
+      filter9:
+        id: category9
+        value: chocolate
+        filter-label: Chocolate Covered Pretzels
+      filter10:
+        id: category10
+        value: dips
+        filter-label: Salsa/Dips
+  -
+    section-title: View Other Brands
+    sidebar-filters-products:
+      filter1:
+        id: brand1
+        value: good
+        filter-label: Good Natured Selects
+      filter2:
+        id: brand2
+        value: golite
+        filter-label: Go Lite!
+      filter3:
+        id: brand3
+        value: flavor
+        filter-label: Flavor Mill
+      filter4:
+        id: brand4
+        value: cheyenne
+        filter-label: Cheyenne
+
+filter-section-products:
+  -
+    section-class: herrs
+    section-title: Herr's Brand Products
+    num-of-products: 79
+    type-of-product: Different Herr’s Products
+    products:
+      product1:
+        product-page: product-details.html
+        product-img: honey-sriracha
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: potato
+    section-title: Potato Chips
+    num-of-products: 28
+    type-of-product: Types of Potato Chips
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: kettle
+    section-title: Kettle Cooked Potato Chips
+    num-of-products: 79
+    type-of-product: Types of Kettle Cooked Potato Chips
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: baked
+    section-title: Baked Potato Chips
+    num-of-products: 28
+    type-of-product: Types of Baked Potato Chips
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: pretzels
+    section-title: Pretzels
+    num-of-products: 56
+    type-of-product: Types of Pretzels
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: cheese
+    section-title: Cheese Curls
+    num-of-products: 79
+    type-of-product: Types of Cheese Curls
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: tortillas
+    section-title: Tortillas
+    num-of-products: 28
+    type-of-product: Types of Tortillas
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: popcorn
+    section-title: Popcorn
+    num-of-products: 56
+    type-of-product: Types of Popcorn
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: corn
+    section-title: Corn Chips
+    num-of-products: 79
+    type-of-product: Types of Corn Chips
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: chocolate
+    section-title: Chocolate Covered Pretzels
+    num-of-products: 79
+    type-of-product: Types of Chocolate Covered Pretzels
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: dips
+    section-title: Salsa/Dips
+    num-of-products: 28
+    type-of-product: Types of Salsa/Dips
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: good
+    section-title: Good Natured Selects Brand Products
+    num-of-products: 56
+    type-of-product: Different Good Natured Selects Products
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: golite
+    section-title: Go Lite! Brand Products
+    num-of-products: 79
+    type-of-product: Different Go Lite! Selects Products
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: flavor
+    section-title: Flavor Mill Brand Products
+    num-of-products: 56
+    type-of-product: Different Flavor Mill Selects Products
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+  -
+    section-class: cheyenne
+    section-title: Cheyenne Brand Products
+    num-of-products: 56
+    type-of-product: Different Cheyenne Selects Products
+    products:
+      product1:
+        product-page:
+        product-img: lorem-bag
+      product2:
+        product-page:
+        product-img: lorem-bag
+      product3:
+        product-page:
+        product-img: lorem-bag
+      product4:
+        product-page:
+        product-img: lorem-bag
+      product5:
+        product-page:
+        product-img: lorem-bag
+
+similar-products:
+  -
+    filter: all herrs
+    product-img: lorem-bag
+  -
+    filter: all good
+    product-img: lorem-bag
+  -
+    filter: all herrs
+    product-img: original-bag
+  -
+    filter: all golite
+    product-img: lorem-bag
+  -
+    filter: all flavor
+    product-img: lorem-bag
+  -
+    filter: all cheyenne
+    product-img: lorem-bag
+  -
+    filter: all golite
+    product-img: lorem-bag
+
+sidebar-videos:
+  -
+    yt-vid-id: 7PkxaSKA4Q8
+    video-poster: video-poster-1
+    vid-poster-alt: Video poster
+    vid-desc: From Nottingham, PA to Nottingham, UK
+  -
+    yt-vid-id: yfXp96z0fac
+    video-poster: video-poster-2
+    vid-poster-alt: Video poster
+    vid-desc: 'Herr’s Fan Flavorite: Cracked Pepper & Salt'
+  -
+    yt-vid-id: ndVkp6OIoEk
+    video-poster: video-poster-3
+    vid-poster-alt: Video poster
+    vid-desc: 'Herr’s Fan Flavorite: Sour Cream & Onion'
+
+sidebar-section-recipes:
+  -
+    section-title: View By Category
+    sidebar-filters-recipes:
+      filter1:
+        id: category1
+        value: appetizer
+        filter-label: Appetizers
+      filter2:
+        id: category2
+        value: entree
+        filter-label: Entrees
+      filter3:
+        id: category3
+        value: dessert
+        filter-label: Desserts
+      filter4:
+        id: category4
+        value: all
+        filter-label: All
+
+recipe-cards:
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    filters: all appetizer
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: recipe1.png
+    card-img-alt: Seven-Layer Mexican Dip
+    card-title: Seven-Layer Mexican Dip
+    card-text: Nunc ullamcorper scel erisque dignissim. Quis que sodales finibus lacus...
+    card-link-text: View
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    filters: all dessert
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: recipe2.png
+    card-img-alt: Chocolate Pretzel Cheesecake
+    card-title: Chocolate Pretzel Cheesecake
+    card-text: Nunc ullamcorper scel erisque dignissim. Quis que sodales finibus lacus...
+    card-link-text: View
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    filters: all appetizer
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: recipe3.png
+    card-img-alt: Baked Cheese Curl Biscuits
+    card-title: Baked Cheese Curl Biscuits
+    card-text: Nunc ullamcorper scel erisque dignissim. Quis que sodales finibus lacus...
+    card-link-text: View
+  -
+    large-breakpoint: 6
+    medium-breakpoint: 6
+    filters: all dessert
+    card-class: divider featured
+    divider-icon: clock
+    divider-text: 15 min
+    card-tag: Featured
+    card-link:
+    card-img: recipe4.png
+    card-img-alt: Chipper Chip Cookies
+    card-title: Chipper Chip Cookies
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non...
+    card-link-text: View
+  -
+    large-breakpoint: 6
+    medium-breakpoint: 6
+    filters: all appetizer
+    card-class: divider fan-submitted
+    divider-icon: user
+    divider-text: 'Recipe by: Linda Johnson'
+    card-tag: Fan Recipe
+    card-link:
+    card-img: recipe5.png
+    card-title: Barbeque Dusted Sweet Potato Fries
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non...
+    card-link-text: View
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    filters: all entree
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: recipe6.png
+    card-img-alt: Herr's® Crab Cakes
+    card-title: Herr's® Crab Cakes
+    card-text: Nunc ullamcorper scel erisque dignissim. Quis que sodales finibus lacus...
+    card-link-text: View
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    filters: all appetizer
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link: recipe-details.html
+    card-img: recipe7.png
+    card-img-alt: Herr's® Overstuffed Mushrooms
+    card-title: Herr's® Overstuffed Mushrooms
+    card-text: Nunc ullamcorper scel erisque dignissim. Quis que sodales finibus lacus...
+    card-link-text: View
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    filters: all entree
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: recipe8.png
+    card-img-alt: Salsa Chicken Tortilla
+    card-title: Salsa Chicken Tortilla
+    card-text: Nunc ullamcorper scel erisque dignissim. Quis que sodales finibus lacus...
+    card-link-text: View
+  -
+    large-breakpoint: 6
+    medium-breakpoint: 6
+    filters: all entree
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Meat Loaf
+    card-title: Meat Loaf
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non...
+    card-link-text: View
+  -
+    large-breakpoint: 6
+    medium-breakpoint: 6
+    filters: all dessert
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Rush & Crush Salad
+    card-title: Rush & Crush Salad
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non...
+    card-link-text: View
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    filters: all dessert
+    card-class: divider
+    divider-icon: clock
+    divider-text: 15 min
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Pop O’Lanterns
+    card-title: Pop O’Lanterns
+    card-text: Nunc ullamcorper scel erisque dignissim. Quis que sodales finibus lacus...
+    card-link-text: View
+
+visit-us:
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-class: rounded center
+    card-link: secondary-template.html
+    card-img: visit1.png
+    card-img-alt: Factory Tours
+    card-title: Factory Tours
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-class: rounded center
+    card-link:
+    card-img: visit2.png
+    card-img-alt: What to Expect
+    card-title: What to Expect
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-class: rounded center
+    card-link: directions.html
+    card-img: visit3.png
+    card-img-alt: Directions & Hours
+    card-title: Directions & Hours
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-class: rounded center
+    card-link:
+    card-img: visit4.png
+    card-img-alt: Special Events
+    card-title: Special Events
+    card-link-text: View
+
+news-cards:
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: news1.png
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link: news-details.html
+    card-img: news2.png
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: news3.png
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: news4.png
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: news5.png
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: news6.png
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: divider no-shadow
+    divider-text: <span class="posted">Posted</span> June 15, 2017
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-title: Sed ac tellus et orci vulputate convallis vitae at lorem.
+    card-text: Nunc ullamcorper scelerisque dignissim. Quisque sodales finibus lacus at hendrerit. Fusce pellentesque volutpat eros, non dignissim libero porta quis.
+    card-link-text: Read
+
+recipe-accordion:
+  -
+    accordion-item-class: is-active
+    panel-title: Ingredients
+    grid-blocks:
+      grid-block-1:
+        panel-class: full-width
+        panel-content:
+          <ul>
+            <li>24 (1 1/2 lbs.) 2-inch mushrooms</li>
+            <li>1/4 cup butter or margarine, melted</li>
+            <li>1 cup crushed Herr's® Regular Potato Chips</li>
+            <li>2 green onions, sliced</li>
+            <li>2 tablespoons chopped parsley</li>
+            <li>2 tablespoons mayonnaise</li>
+            <li>1 clove garlic, crushed</li>
+            <li>Dash liquid hot pepper sauce</li>
+            <li>Paprika</li>
+          </ul>
+  -
+    accordion-item-class:
+    panel-title: Directions
+    grid-blocks:
+      grid-block-1:
+        panel-class: full-width
+        panel-content:
+          <ol>
+            <li>Lorem chipsum dolor sit amet, consectetur adipiscing elit. Mauris non sapien vel libero vehicula ultricies.</li>
+            <li>Praesent ac erat id odio facilisis semper quis vitae est. Quisque bibendum in lectus id facilisis.</li>
+            <li>Curabitur bibendum, arcu eget pellentesque pharetra, augue diam rhoncus magna, ut laoreet nunc sem nec ex.</li>
+            <li>Ut finibus ex et leo dictum, vel sagittis mauris lacinia. In hac habitasse platea dictumst.</li>
+            <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas consectetur semper eleifend.</li>
+            <li>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In fringilla convallis elit eget ultricies.</li>
+            <li>In viverra euismod nunc sit amet aliquam.</li>
+            <li>Nunc fringilla leo eget dolor cursus euismod. Curabitur hendrerit porttitor rutrum. Nullam mattis aliquam luctus.</li>
+            <li>Vivamus metus elit, placerat ut felis viverra, vehicula pellentesque velit.</li>
+            <li>Sed eu enim nec lacus faucibus aliquam non et ex.</li>
+          </ol>
+
+nutrition-accordion:
+  -
+    accordion-item-class: is-active
+    panel-title: Allergens
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: <p>Food allergy concerns have grown in the past few years. Herr’s produces products that are gluten or allergen free however we do not have designated processing lines for these products. This is true for all our processing areas. All machines are wiped and/or washed before making another product, but there is still the possibility of small amounts of residue being left behind. Individuals who are highly sensitive should take this into consideration before using our products. The information is subject to change without notice.</p>
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: '<p><strong>Herr’s Product Allergen Information</strong></p><a class="button primary">Download PDF</a>'
+  -
+    panel-title: GMO
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: "<h3>What is genetic modification (GM) or bioengineering?</h3><p>Bioengineering (or genetic modification) of plants is a process of improving plant characteristics (similar to traditional cross breeding) in an effort to improve their quality and consistency. More than 90% of all corn, soybeans, sugar beets, and canola grown by farmers in the U.S. are developed with bioengineering for more consistent quality and reduction of the use of pesticides. Bioengineered crops also may result in higher yields often with less use of herbicides and pesticides. The result, improved quality resulting in less food waste throughout both the farming and food manufacturing process. There is wide consensus that bioengineered ingredients are safe. Organizations such as the U.S. Food and Drug Administration (FDA), the UN World Health Organization (WHO), the U.S. Environmental Protection Agency and U.S. Department of Agriculture have approved biotech crops as safe.</p><h3>Where does Herr's stand on genetically modified (GM) ingredients?</h3><p>At Herr's, our number one priority is the safety of the products we produce for our customers. We source our ingredients from suppliers that have the finest quality and consistency of their crops. Many of our ingredients are not bioengineered. For example, all of the potatoes in our potato chips and baked potato chips are currently non-GMO.</p><p>We support disclosure of bioengineering on our packaging to comply with all federal regulations so that consumers can be fully informed regarding the products they purchase from Herr’s.</p><h3>What’s next for GMO labelling?</h3><p>The U.S. Department of Agriculture (USDA) has recently developed national standards for mandatory disclosure of GMOs on food packaging using one of three formats: text, a symbol, or electronic or digital link, like the QR code. These standards are being reviewed by food manufacturers and retailers and a final ruling on the wording and timing to put these changes on packaging should be made by the end of 2018.</p><p>We know that food safety is paramount to everyone. So while we continue to explore opportunities to offer the latest developments in non-GMO ingredients, we remain committed to delivering to you the safest and best tasting snacks possible.</p>"
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: '<a class="button primary">View Products</a>'
+  -
+    panel-title: Kosher
+    grid-blocks:
+      grid-block-1:
+        panel-class: full-width
+        panel-content:
+          <div class="key">
+              <p><span class="u">U</span> = Orthodox Union</p>
+              <p><span class="ud">UD</span> = Orthodox Union Diary</p>
+          </div>
+      grid-block-2:
+        block-size-lg: 6
+        block-size-md: 12
+        panel-class: full-width
+        panel-content:
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Potato Chips</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>BBQ</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Baby Back Ribs</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Cheddar &amp; Sour Cream</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Creamy Dill Pickle</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Honey BBQ</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Hot Sauce</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Kansas City Prime Steak</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Ketchup</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Lightly Salted</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Old Bay</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Original Crisp 'N Tasty</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Red Hot</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Ripples</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Salt &amp; Pepper</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Salt &amp; Vinegar</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Sour Cream &amp; Onion</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Pretzels</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Bite Size Sourdough Hard</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Circle H Mini</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Extra Thin</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Mini Sourdough Hard Pretzels</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Peanut Butter Filled</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Pub Style Thins Sourdough Pretzels</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>San Francisco Sourdough Pretzels</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Stix</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Kettle Cooked Potato Chips</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Boardwalk Salt &amp; Vinegar</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Cheddar Horseradish</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Cracked Pepper &amp; Sea Salt</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Honey Sriracha</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Jalapeno</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Lattice Cut</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Mesquite BBQ</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Original</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Ripple</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Russet</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Smoked Chipotle</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Sour Cream &amp; Onion</td>
+                  </tr>
+              </tbody>
+          </table>
+      grid-block-3:
+        block-size-lg: 6
+        block-size-md: 12
+        panel-class: full-width
+        panel-content:
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Baked Potato Chips</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Aged Cheddar Ripple</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Barbecue</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Cheddar &amp; Sour Cream</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Original Baked</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Original Ripple</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Sour Cream &amp; Onion</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Potato Stix</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Potato Stix Canister</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Chocolate Covered Pretzels</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Chocolate Covered Pretzel Rods</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Tortilla Chips</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Bite Size Dippers</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Cantina Style Tortillas</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Nacho Cheese</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Restaraunt Style White Corn</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Yellow Round Tortilla</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Cheese Curls</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Baked</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Buffalo Blue</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Honey</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Hot</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Jalapeno Poppers</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Old Bay</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Popcorn</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Cheese</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Hot Cheese</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Hot Cheese Sauce</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td></td>
+                      <td>Light</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>Original</td>
+                  </tr>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>White Cheddar</td>
+                  </tr>
+              </tbody>
+          </table>
+          <table>
+              <thead>
+                  <tr>
+                      <th colspan="3">Corn Chips</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><span class="u">U</span></td>
+                      <td><span class="ud">UD</span></td>
+                      <td>BBQ</td>
+                  </tr>
+              </tbody>
+          </table>
+  -
+    panel-title: Salt & Sodium
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: <p>Most people who enjoy our snacks are surprised to learn that Herr’s potato chips and corn chips are actually much lower in salt per serving than foods like tomato juice, frozen pizza or canned soups. Because the seasoning in Herr’s snacks is on the surface, the salt flavor is higher than the actual salt content—which is generally less than 10% of your recommended daily sodium intake for a 1-ounce serving.</p><p>Of course salt in itself is not a bad thing. In the right proportions, it’s an essential mineral that helps to manage the volume of fluids in our bodies. As with most foods we enjoy, the key to enjoying snack foods that contain salt is, balance and moderation. Staying active, managing your stress, eating regular meals and setting aside time to spend with the people you love--as long as you’re treating yourself right, there’s no reason you can’t also treat yourself to something tasty.</p>
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: '<a class="button primary">View Products</a>'
+  -
+    panel-title: Cage-free Eggs
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: <p>Herr’s carefully selects our partners and suppliers to provide the highest quality snack foods to our customers. Over the past 71 years, the Herr’s family commitment has been to work with top rated suppliers approved by the USDA and the FDA to maintain cost efficiency and exceptional quality. Herr’s is supportive of efforts to improve animal welfare and as we continue to advance our work with suppliers in responsible sourcing, Herr’s is committed to using only cage-free eggs in its products by 2025.</p>
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: '<a class="button primary">View Products</a>'
+
+branch-locations-accordion:
+  -
+    accordion-item-class: is-active
+    panel-title: Delaware
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-content: <img src="./assets/img/branch-map.jpg">
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-content:  '<strong class="sub-head">Seaford, DE (Div. 72)</strong><br/><br/>
+                         <p>22706 Sussex Highway<br/>
+                          Seaford, DE 19973<br/>
+                          302.628,9161<br/>
+                          800.628.HERR<br/>
+                          Fax 302.628.9073</p>'
+      grid-block-3:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content:   '<strong>Contact</strong><br/>
+                          <a href="mailto:recruitmebnt@herrs.com">
+                          recruitmebnt@herrs.com
+                          </a><br/><br/>
+                          <strong>Brand Manager</strong><br/>
+                          <p>Jim Wells JFW</p>'
+      grid-block-4:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: '<p><strong>Directions</strong></p><a class="button primary">See on Google Maps</a>'
+  -
+    panel-title: Maryland
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-content: <img src="./assets/img/branch-map.jpg">
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-content:  '<strong class="sub-head">Seaford, DE (Div. 72)</strong><br/><br/>
+                         <p>22706 Sussex Highway<br/>
+                          Seaford, DE 19973<br/>
+                          302.628,9161<br/>
+                          800.628.HERR<br/>
+                          Fax 302.628.9073</p>'
+      grid-block-3:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content:   '<strong>Contact</strong><br/>
+                          <a href="mailto:recruitmebnt@herrs.com">
+                          recruitmebnt@herrs.com
+                          </a><br/><br/>
+                          <strong>Brand Manager</strong><br/>
+                          <p>Jim Wells JFW</p>'
+      grid-block-4:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: '<p><strong>Directions</strong></p><a class="button primary">See on Google Maps</a>'       
+
+recipe-cards-slider:
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: recipe1.png
+    card-img-alt: Seven-Layer Mexican Dip
+    card-title: Seven-Layer Mexican Dip
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    filters: all dessert
+    card-link:
+    card-img: recipe2.png
+    card-img-alt: Chocolate Pretzel Cheesecake
+    card-title: Chocolate Pretzel Cheesecake
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: recipe3.png
+    card-img-alt: Baked Cheese Curl Biscuits
+    card-title: Baked Cheese Curl Biscuits
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: recipe4.png
+    card-img-alt: Chipper Chip Cookies
+    card-title: Chipper Chip Cookies
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: recipe6.png
+    card-img-alt: Herr's® Crab Cakes
+    card-title: Herr's® Crab Cakes
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: recipe8.png
+    card-img-alt: Salsa Chicken Tortilla
+    card-title: Salsa Chicken Tortilla
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Meat Loaf
+    card-title: Meat Loaf
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Rush & Crush Salad
+    card-title: Rush & Crush Salad
+    card-link-text: View
+  -
+    large-breakpoint: 3
+    medium-breakpoint: 6
+    card-link:
+    card-img: card-placeholder.jpg
+    card-img-alt: Pop O’Lanterns
+    card-title: Pop O’Lanterns
+    card-link-text: View
+
+bio-cards:
+  -
+    bio-link: bio-details.html
+    card-img: ed.jpg
+    person-name: Ed Herr
+    person-title: President & CEO
+    person-desc: As the current president, CEO and spokesman of Herr Foods, Ed Herr follows in his father’s footsteps of putting product quality and business integrity first.
+  -
+    bio-link:
+    card-img: jm.jpg
+    person-name: J.M. Herr
+    person-title: Executive Chairman
+    person-desc: James M. (J.M.) Herr has worked in the family business for over 40 years. As the executive chairman, J.M. oversees the long-term health of his father’s snack company.
+  -
+    bio-link:
+    card-img: james.jpg
+    person-name: James S. Herr
+    person-title: Founder
+    person-desc: The man that started it all, Jim Herr founded our family’s snack company over 70 years ago, creating a Forever Good legacy of kindness, persistence and integrity.
+
+timeline:
+  -
+    year: 1946
+    timeline-img: https://via.placeholder.com/600x350
+    timeline-img-alt: This happened in 1946
+    timeline-title: Something happened
+    slide-number: 1
+  -
+    year: 1947
+    timeline-img: https://via.placeholder.com/600x350
+    timeline-img-alt: This happened in 1947
+    timeline-title: Something happened
+    slide-number: 2
+  -
+    year: 1951
+    timeline-img: assets/img/timeline-slide.png
+    timeline-img-alt: This happened in 1951
+    timeline-title: Factory fire threatens the future
+    slide-number: 3
+  -
+    year: 1952
+    timeline-img: https://via.placeholder.com/600x350
+    timeline-img-alt: This happened in 1952
+    timeline-title: Something happened
+    slide-number: 4
+  -
+    year: 1960
+    timeline-img: https://via.placeholder.com/600x350
+    timeline-img-alt: This happened in 1960
+    timeline-title: Something happened
+    slide-number: 5
+
+ecology-bookmarks:
+  -
+    data-slide: 1
+    bookmark-title: Manufacturing
+  -
+    data-slide: 2
+    bookmark-title: Packaging
+  -
+    data-slide: 3
+    bookmark-title: Recycling
+  -
+    data-slide: 4
+    bookmark-title: Herr Angus Farms
+  -
+    data-slide: 5
+    bookmark-title: The Herr's Commitment
+
+ecology-slider:
+  -
+    slide-number: 1
+    slide-img: assets/img/manufacturing-1.png
+    slide-img-alt: Manufacturing
+    slide-title: Manufacturing
+    slide-content: <p>Most manufacturing operations produce waste and Herr’s® is no exception. However at Herr’s, most of the waste generated is used at the nearby Herr’s Angus Farm. Water discharge is used for spray irrigation, sludge for fertilizer and potato skins for fodder. Also, any product that does not meet Herr’s quality standards is used as cattle feed.</p><p>Our manufacturing systems have been carefully designed to be environmentally friendly and energy-efficient, and our steam recovery system saves energy by capturing the plant’s hot water and turning it into hot air that heats the building. Our starch recovery system collects excess potato starch, which is then sold to fine paper manufacturers. By making ecologically friendly choices like these, we have ensured that as little waste as possible leaves our plant.</p>
+  -
+    slide-number: 2
+    slide-img: https://via.placeholder.com/750x438
+    slide-img-alt: Packaging
+    slide-title: Packaging
+    slide-content: <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, mollitia. Laudantium eius exercitationem facere aspernatur aut ratione corporis inventore velit, doloremque, assumenda fugit dolor non quidem qui voluptatem animi cum.</p>
+  -
+    slide-number: 3
+    slide-img: https://via.placeholder.com/750x438
+    slide-img-alt: Recycling
+    slide-title: Recycling
+    slide-content: <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, mollitia. Laudantium eius exercitationem facere aspernatur aut ratione corporis inventore velit, doloremque, assumenda fugit dolor non quidem qui voluptatem animi cum.</p>
+  -
+    slide-number: 4
+    slide-img: https://via.placeholder.com/750x438
+    slide-img-alt: Herr Angus Farms
+    slide-title: Herr Angus Farms
+    slide-content: <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, mollitia. Laudantium eius exercitationem facere aspernatur aut ratione corporis inventore velit, doloremque, assumenda fugit dolor non quidem qui voluptatem animi cum.</p>
+  -
+    slide-number: 5
+    slide-img: https://via.placeholder.com/750x438
+    slide-img-alt: The Herr's Commitment
+    slide-title: The Herr's Commitment
+    slide-content: <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, mollitia. Laudantium eius exercitationem facere aspernatur aut ratione corporis inventore velit, doloremque, assumenda fugit dolor non quidem qui voluptatem animi cum.</p>
+
+directions-accordion:
+  -
+    accordion-item-class: is-active
+    accordion-item-id: philadelphia
+    panel-title: Philadelphia Area
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: <p>Take 1-95 South to Route 322 West to Route 1 South. Exit Route 272 (Nottingham) and turn left. Travel for 50 yards, turn right onto Herr Drive and follow signs to the Herr's Snack Factory Tour. Approx. 1 hour.</p>
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: <a href="https://www.google.com/maps/dir/Philadelphia,+Pennsylvania/20+Herr+Drive,+Nottingham,+PA/@39.7946659,-75.7428901,10.85z/data=!4m14!4m13!1m5!1m1!1s0x89c6b7d8d4b54beb:0x89f514d88c3e58c1!2m2!1d-75.1652215!2d39.9525839!1m5!1m1!1s0x89c7b4f696b39435:0x409ec2ad5495cb80!2m2!1d-76.0228074!2d39.7487823!5i1" target="_blank" class="button primary">Directions</a>
+  -
+    panel-title: Harrisburg
+    accordion-item-id: harrisburg
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: <p>Route 283 East to route 30 East. Take the 222 South exit. Pickup route 272 South. At Wakefield remain on 272 South to Nottingham. Crossover route 1 then turn right into Herr Dr. Follow signs to the Factory Tour. Approx. 90 minutes.</p>
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: <a href="https://www.google.com/maps/dir/Harrisburg,+PA/20+Herr+Drive,+Nottingham,+PA/@40.043635,-76.6291887,10.32z/data=!4m19!4m18!1m10!1m1!1s0x89c8c116b8079e97:0xbb6e42c8128d46d5!2m2!1d-76.8867008!2d40.2731911!3m4!1m2!1d-76.8709772!2d40.2513957!3s0x89c8c0ffd754ddf7:0x14ec9df96ed932cc!1m5!1m1!1s0x89c7b4f696b39435:0x409ec2ad5495cb80!2m2!1d-76.0228074!2d39.7487823!3e0" target="_blank" class="button primary">Directions</a>
+  -
+    panel-title: Lancaster
+    accordion-item-id: lancaster
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: <p>Route 283 East to route 30 East. Take the 222 South exit. Pickup route 272 South. At Wakefield remain on 272 South to Nottingham. Crossover route 1 then turn right into Herr Dr. Follow signs to the Factory Tour. Approx. 45 minutes.</p>
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: <a href="https://www.google.com/maps/dir/Lancaster,+PA/20+Herr+Drive,+Nottingham,+PA/@39.8942888,-76.2922775,11z/data=!4m13!4m12!1m5!1m1!1s0x89c6248b917214b9:0xb46790d030dbd2d6!2m2!1d-76.3055144!2d40.0378755!1m5!1m1!1s0x89c7b4f696b39435:0x409ec2ad5495cb80!2m2!1d-76.0228074!2d39.7487823" target="_blank" class="button primary">Directions</a>
+  -
+    panel-title: Baltimore Area
+    accordion-item-id: baltimore
+    grid-blocks:
+      grid-block-1:
+        block-size-lg: 9
+        block-size-md: 12
+        panel-content: <p>Take 1-95 North to the Route 272 North East, Maryland exit. Go north on Route 272 to the village of Nottingham. We are near the intersection of Rts. 272 and 1. Turn left onto Herr Drive and follow signs to the Herr's Snack Factory Tour. Approx. 1 hour.</p>
+      grid-block-2:
+        block-size-lg: 3
+        block-size-md: 12
+        panel-class: full-width
+        panel-content: <a href="https://www.google.com/maps/dir/Baltimore,+MD/20+Herr+Drive,+Nottingham,+PA/@39.4900064,-76.4221685,10z/data=!4m19!4m18!1m10!1m1!1s0x89c803aed6f483b7:0x44896a84223e758!2m2!1d-76.6121893!2d39.2903848!3m4!1m2!1d-76.0429566!2d39.6010468!3s0x89c7b84f1c29c4a1:0xeb5669b18428e5e4!1m5!1m1!1s0x89c7b4f696b39435:0x409ec2ad5495cb80!2m2!1d-76.0228074!2d39.7487823!3e0" target="_blank" class="button primary">Directions</a>
+
+leadership-cards:
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/jm.jpg
+    card-img-alt: J.M. Herr
+    card-title: J.M. Herr
+    card-text: Executive Chairman
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/ed.jpg
+    card-img-alt: Ed Herr
+    card-title: Ed Herr
+    card-text: President and CEO
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/daryl.jpg
+    card-img-alt: Daryl Thomas
+    card-title: Daryl Thomas
+    card-text: Sr. VP of Sales & Senior Advisor to C.E.O
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/phil.jpg
+    card-img-alt: Phil Bernas
+    card-title: Phil Bernas
+    card-text: Sr. VP Research & Development
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/ramiro.jpg
+    card-img-alt: Ramiro Fernandez
+    card-title: Ramiro Fernandez
+    card-text: Chief Financial Officer
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/bob.jpg
+    card-img-alt: Bob Landis
+    card-title: Bob Landis
+    card-text: Sr. VP of Human Resources
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/steve.jpg
+    card-img-alt: Steve Moran
+    card-title: Steve Moran
+    card-text: Sr. VP Manufacturing
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/dan.jpg
+    card-img-alt: Dan Sifer
+    card-title: Dan Sifer
+    card-text: Sr. VP of Supply Chain
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/troy.jpg
+    card-img-alt: Troy Gunden
+    card-title: Troy Gunden
+    card-text: Executive Vice President
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/jim.jpg
+    card-img-alt: Jim E. Herr
+    card-title: Jim E. Herr
+    card-text: VP of Marketing and Research & Development
+  -
+    large-breakpoint: 4
+    medium-breakpoint: 6
+    card-class: leadership-card rounded
+    card-img: leadership-imgs/jere.jpg
+    card-img-alt: Jere Thomas
+    card-title: Jere Thomas
+    card-text: VP of Manufacturing
+

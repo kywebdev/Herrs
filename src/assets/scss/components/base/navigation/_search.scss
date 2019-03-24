@@ -1,0 +1,100 @@
+.pre-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: $dark-gray;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    width: 100%;
+
+    @include breakpoint(medium) {
+        justify-content: flex-end;
+    }
+}
+.pre-nav-items {
+    display: flex;
+    justify-content: center;
+    display: none;
+    margin-right: 30px;
+
+    @include breakpoint(medium) {
+        justify-content: flex-end;
+    }
+    @include breakpoint(large) {
+        display: flex;
+    }
+    li {
+        a {
+            color: $white;
+            text-transform: uppercase;
+            transition: all .1s;
+            font-size: 85%;
+            padding-left: 20px;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+.search-button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+
+    .search-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 52px;
+        height: 52px;
+        background: $secondary-color;
+        transition: .2s ease-in-out;
+
+        &:hover {
+            background: lighten($secondary-color, 5%);
+        }
+        img {
+            width: 20px;
+
+            @include breakpoint(medium) {
+                width: 25px;
+            }
+        }
+    }
+    @include breakpoint(medium) {
+        padding-left: 0;
+    }
+    a {
+        border-bottom: none;
+    }
+}
+.menu.pre-nav-items:hover>li a {
+    opacity: .5;
+    transition: all .3s;
+}
+.menu.pre-nav-items:hover>li a:hover {
+    opacity: 1;
+    color: $secondary-color !important;
+}
+.brand-logo {
+    position: fixed;
+    top: 52px;
+    transform: translateY(-2em);
+    width: 120px;
+    z-index: 1000;
+    margin-left: 5%;
+
+    @include breakpoint(medium) {
+        transform: translateY(-2.3em);
+        margin-left: 3em;
+        width: 150px;
+    }
+    @include breakpoint(large) {
+        width: 200px;
+        transform: translateY(.5em);
+    }
+}
