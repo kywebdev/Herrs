@@ -1,3 +1,26 @@
 # Herr's
+Live site: [https://www.herrs.com](https://www.herrs.com)
 
-Add arrows back to product page slider
+## List of templates
+
+- [Homepage](https://github.com/kywebdev/Herrs/index.html)
+- [Products](https://github.com/kywebdev/Herrs/products-landing.html)
+    - [Product Details](https://github.com/kywebdev/Herrs/product-details.html)
+- [Nutrition](https://github.com/kywebdev/Herrs/nutrition.html)
+- [Recipes](https://github.com/kywebdev/Herrs/recipes-landing.html)
+    - [Recipe Details](https://github.com/kywebdev/Herrs/recipe-details.html)
+- [Visit Us](https://github.com/kywebdev/Herrs/visit.html)
+    - [Factory Tours](https://github.com/kywebdev/Herrs/secondary-template.html)
+    - [Directions](https://github.com/kywebdev/Herrs/directions.html)
+- [The Latest](https://github.com/kywebdev/Herrs/news-landing.html)
+    - [Article Details](https://github.com/kywebdev/Herrs/news-details.html)
+- [Our Values](https://github.com/kywebdev/Herrs/our-values.html)
+    - [Ecology Awareness](https://github.com/kywebdev/Herrs/ecology-awareness.html)
+- [About Us](https://github.com/kywebdev/Herrs/bios-template.html)
+    - [Leadership Team](https://github.com/kywebdev/Herrs/leadership-team.html)
+    - [Biography](https://github.com/kywebdev/Herrs/bio-details.html)
+- [Contact Us](https://github.com/kywebdev/Herrs/primary-template.html)
+- [Videos](https://github.com/kywebdev/Herrs/videos-template.html)
+- [Branch Locations](https://github.com/kywebdev/Herrs/branch-locations.html)
+- [Distributors & Vending](https://github.com/kywebdev/Herrs/distributors-vending.html)
+- [Terms of Service](https://github.com/kywebdev/Herrs/information-template.html)

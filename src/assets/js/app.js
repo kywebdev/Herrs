@@ -48,8 +48,8 @@ injector.inject(
 // slick carousel
 $(".fullproductlist .productList").slick({
   // normal options...
-  prevArrow: "<img class='a-left control-c prev slick-prev' src='img/left-arrow.png'>",
-  nextArrow: "<img class='a-right control-c next slick-next' src='img/right-arrow.png'>",
+  prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/img/left-arrow.png'>",
+  nextArrow: "<img class='a-right control-c next slick-next' src='assets/img/right-arrow.png'>",
   infinite: true,
   rows: 1,
   slidesPerRow: 1,
@@ -555,8 +555,8 @@ $('.products .loadMore').on('click', function(e) {
     $('.products .list .section:lt('+x+')').addClass('show').removeClass('hide');
     $('.fullproductlist .productList').slick('unslick');
     $(".fullproductlist .productList").slick({
-        prevArrow: "<img class='a-left control-c prev slick-prev' src='img/left-arrow.png'>",
-        nextArrow: "<img class='a-right control-c next slick-next' src='img/right-arrow.png'>",
+        prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/img/left-arrow.png'>",
+        nextArrow: "<img class='a-right control-c next slick-next' src='assets/img/right-arrow.png'>",
         infinite: true,
         rows: 1,
         slidesPerRow: 1,
@@ -603,8 +603,8 @@ if (!checked)
     $(".loadMore").hide();
     $('.fullproductlist .productList').slick('unslick');
     $(".fullproductlist .productList").slick({
-        prevArrow: "<img class='a-left control-c prev slick-prev' src='img/left-arrow.png'>",
-        nextArrow: "<img class='a-right control-c next slick-next' src='img/right-arrow.png'>",
+        prevArrow: "<img class='a-left control-c prev slick-prev' src='assets/img/left-arrow.png'>",
+        nextArrow: "<img class='a-right control-c next slick-next' src='assets/img/right-arrow.png'>",
         infinite: true,
         rows: 1,
         slidesPerRow: 1,
