@@ -1466,13 +1466,13 @@ bio-cards:
 timeline:
   -
     year: 1946
-    timeline-img: https://via.placeholder.com/600x350
+    timeline-img: https://placehold.co/600x350
     timeline-img-alt: This happened in 1946
     timeline-title: Something happened
     slide-number: 1
   -
     year: 1947
-    timeline-img: https://via.placeholder.com/600x350
+    timeline-img: https://placehold.co/600x350
     timeline-img-alt: This happened in 1947
     timeline-title: Something happened
     slide-number: 2
@@ -1484,13 +1484,13 @@ timeline:
     slide-number: 3
   -
     year: 1952
-    timeline-img: https://via.placeholder.com/600x350
+    timeline-img: https://placehold.co/600x350
     timeline-img-alt: This happened in 1952
     timeline-title: Something happened
     slide-number: 4
   -
     year: 1960
-    timeline-img: https://via.placeholder.com/600x350
+    timeline-img: https://placehold.co/600x350
     timeline-img-alt: This happened in 1960
     timeline-title: Something happened
     slide-number: 5
